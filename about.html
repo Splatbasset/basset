@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About — splatbasset.dev</title>
+  <meta name="description" content="Meet splatbasset — a developer on a mission to make programming accessible to everyone through free, project-based courses." />
+  <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <input type="checkbox" id="nav-toggle" class="nav-toggle" hidden />
+    <div class="container">
+      <a href="index.html" class="logo">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="18 16 22 12 18 8"/><polyline points="6 8 2 12 6 16"/><line x1="14.5" x2="9.5" y1="4" y2="20"/></svg>
+        <span>splatbasset<span class="accent">.dev</span></span>
+      </a>
+      <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="courses.html">Courses</a>
+        <a href="about.html" class="active">About</a>
+      </div>
+      <label for="nav-toggle" class="nav-burger" aria-label="Toggle menu">
+        <svg class="icon-open" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="4" x2="20" y1="6" y2="6"/><line x1="4" x2="20" y1="12" y2="12"/><line x1="4" x2="20" y1="18" y2="18"/></svg>
+        <svg class="icon-close" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
+      </label>
+    </div>
+    <div class="nav-mobile">
+      <div class="container" style="display:block; padding-top:0.75rem; padding-bottom:0.75rem;">
+        <a href="index.html">Home</a>
+        <a href="courses.html">Courses</a>
+        <a href="about.html" class="active">About</a>
+      </div>
+    </div>
+  </nav>
+
+  <div class="page-top">
+    <!-- HERO BANNER -->
+    <section class="sec-navy on-navy py">
+      <div class="grid-bg"></div>
+      <div class="container" style="position:relative; z-index:10;">
+        <div class="sec-head anim" style="margin-bottom:0;">
+          <span class="eyebrow">// about</span>
+          <h1 style="font-family:'JetBrains Mono',monospace; font-size:clamp(2.5rem,5vw,3rem); font-weight:700; letter-spacing:-0.02em;">Hey, I'm Splatbasset</h1>
+          <p>Developer, creator, and coding enthusiast on a mission to make programming accessible.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- BIO -->
+    <section class="sec-white py">
+      <div class="container about-narrow">
+        <div class="terminal anim">
+          <div class="code-bar" style="padding:0; border:none; margin-bottom:1rem;">
+            <span class="dot red"></span><span class="dot yellow"></span><span class="dot green"></span>
+            <span class="code-file">about.sh</span>
+          </div>
+          <div class="terminal-body">
+            <p><span class="prompt">$</span> whoami</p>
+            <p class="out">A developer who believes everyone deserves access to quality coding education — no paywalls, no gatekeeping.</p>
+            <p class="gap"><span class="prompt">$</span> cat mission.txt</p>
+            <p class="out">I started splatbasset.dev because I remember how overwhelming it felt to learn programming for the first time. Too many resources assumed you already knew things. I want to change that.</p>
+          </div>
+        </div>
+        <div class="about-prose anim d1">
+          <p>Whether you want to build websites, create games, develop apps, or just understand how software works — I've got you covered. My courses focus on <strong>practical, project-based learning</strong> because the best way to learn is by doing.</p>
+          <p>Currently, I'm building courses for <strong>Java, HTML, CSS, and C#</strong> — four languages that open up a world of possibilities. More languages and topics are on the way.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- VALUES -->
+    <section class="sec-navy on-navy py">
+      <div class="container">
+        <div class="sec-head anim">
+          <h2>What Drives Me</h2>
+        </div>
+        <div class="values-grid">
+          <div class="value-card anim d1">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"/></svg>
+            <h3>Passion for Teaching</h3>
+            <p>Seeing someone go from confused to confident is the most rewarding thing. That's why I do this.</p>
+          </div>
+          <div class="value-card anim d2">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="4 17 10 11 4 5"/><line x1="12" x2="20" y1="19" y2="19"/></svg>
+            <h3>Real-World Skills</h3>
+            <p>No toy examples. Everything I teach connects to skills that matter in real development jobs and projects.</p>
+          </div>
+          <div class="value-card anim d3">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.84.7-2.13-.09-2.91a2.18 2.18 0 0 0-2.91 0z"/><path d="m12 15-3-3a22 22 0 0 1 2-3.95A12.88 12.88 0 0 1 22 2c0 2.72-.78 7.5-6 11a22.35 22.35 0 0 1-4 2z"/><path d="M9 12H4s.55-3.03 2-4c1.62-1.08 5 0 5 0"/><path d="M12 15v5s3.03-.55 4-2c1.08-1.62 0-5 0-5"/></svg>
+            <h3>Always Evolving</h3>
+            <p>Tech moves fast, and so do I. New courses, updated content, and fresh projects are always in the works.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="sec-white py">
+      <div class="container">
+        <div class="cta-wrap anim">
+          <h2>Let's Build Something Together</h2>
+          <p>Check out the available courses and start your coding journey today.</p>
+          <a href="courses.html" class="btn btn-primary">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="18 16 22 12 18 8"/><polyline points="6 8 2 12 6 16"/><line x1="14.5" x2="9.5" y1="4" y2="20"/></svg>
+            View Courses
+          </a>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="18 16 22 12 18 8"/><polyline points="6 8 2 12 6 16"/><line x1="14.5" x2="9.5" y1="4" y2="20"/></svg>
+        <span>splatbasset<span class="accent">.dev</span></span>
+      </div>
+      <div class="footer-links">
+        <a href="index.html">Home</a>
+        <a href="courses.html">Courses</a>
+        <a href="about.html">About</a>
+      </div>
+      <p class="footer-copy">&copy; 2026 splatbasset.dev. All rights reserved.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
